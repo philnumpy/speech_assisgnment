@@ -1,0 +1,43 @@
+# ── Core ──────────────────────────────────────────────────────────
+torch>=2.1.0
+torchaudio>=2.1.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# ── Audio processing ──────────────────────────────────────────────
+librosa>=0.10.1
+soundfile>=0.12.1
+pydub>=0.25.1
+
+# ── ASR ───────────────────────────────────────────────────────────
+openai-whisper>=20231117
+transformers>=4.35.0,<4.36.0
+
+# ── TTS / Voice Cloning ───────────────────────────────────────────
+# Install manually if below fails on Python 3.12:
+# pip install git+https://github.com/idiap/coqui-ai-TTS.git
+TTS>=0.22.0
+
+# ── Speaker embeddings ────────────────────────────────────────────
+speechbrain>=0.5.16
+
+# ── G2P / IPA ─────────────────────────────────────────────────────
+phonemizer>=3.2.1
+# requires system: sudo apt-get install espeak-ng
+
+# ── DTW ───────────────────────────────────────────────────────────
+dtaidistance>=2.3.10
+
+# ── WER evaluation ────────────────────────────────────────────────
+jiwer>=3.0.3
+
+# ── ML / Training ─────────────────────────────────────────────────
+scikit-learn>=1.3.0
+
+# ── Scraping ──────────────────────────────────────────────────────
+yt-dlp>=2024.1.1
+
+# ── Utilities ─────────────────────────────────────────────────────
+matplotlib>=3.7.0
+tqdm>=4.65.0
+nltk>=3.8.1
